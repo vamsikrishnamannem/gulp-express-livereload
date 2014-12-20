@@ -1,0 +1,30 @@
+{
+  "name": "gulp-express-livereload",
+  "version": "1.0.0",
+  "description": "Sample gulp and express livereload",
+  "main": "Gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vamsikrishnamannem/gulp-express-livereload.git"
+  },
+  "keywords": [
+    "gulp",
+    "express",
+    "livereload"
+  ],
+  "author": "Vamsi Krishna Mannem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vamsikrishnamannem/gulp-express-livereload/issues"
+  },
+  "homepage": "https://github.com/vamsikrishnamannem/gulp-express-livereload",
+  "devDependencies": {
+    "connect-livereload": "^0.5.2",
+    "express": "^4.10.6",
+    "gulp": "^3.8.10",
+    "tiny-lr": "^0.1.4"
+  }
+}
