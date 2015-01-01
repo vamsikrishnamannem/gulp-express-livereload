@@ -31,6 +31,6 @@ gulp.task('watch', function() {
   gulp.watch('app/css/*.css', notifyLiveReload);
 });
 
-gulp.task('default', ['express', 'livereload', 'watch'], function() {
+gulp.task('default', ['livereload', 'express', 'watch'], function() {
 
 });
