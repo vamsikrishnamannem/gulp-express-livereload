@@ -5,15 +5,15 @@ var connect = require("connect");
 
 var app = express();
 gulp.task('express', function() {
-  app.use(require('connect-livereload')({port: 8002}));
+  app.use(require('connect-livereload')({port: 9002}));
   app.use(express.static(path.join(__dirname, '/app')));
-  app.listen(8000);
+  app.listen(9000);
 });
 
 var tinylr;
 gulp.task('livereload', function() {
   tinylr = require('tiny-lr')();
-  tinylr.listen(8002);
+  tinylr.listen(9002);
 });
 
 function notifyLiveReload(event) {
