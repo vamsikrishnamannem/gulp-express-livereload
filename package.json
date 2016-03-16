@@ -26,5 +26,8 @@
     "express": "^4.10.6",
     "gulp": "^3.8.10",
     "tiny-lr": "^0.1.4"
+  },
+  "dependencies": {
+    "connect": "^3.4.1"
   }
 }
